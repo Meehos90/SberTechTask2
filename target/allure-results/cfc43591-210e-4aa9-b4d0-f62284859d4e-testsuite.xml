@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1492594917729" stop="1492595041034" version="1.4.23.HOTFIX1" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>SeleniumTasksTest</name>
+    <title>Тестовое задание</title>
+    <test-cases>
+        <test-case start="1492594917762" stop="1492594974778" status="passed">
+            <name>testSecondTask</name>
+            <title>Ищем планшеты</title>
+            <steps>
+                <step start="1492594927463" stop="1492594951853" status="passed">
+                    <name>openPage[Планшеты]</name>
+                    <title>открытие маркета и выбор категории</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1492594929575" stop="1492594930330" status="passed">
+                            <name>checkLink[Маркет]</name>
+                            <title>Открываем страницу "Маркет"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1492594930334" stop="1492594943972" status="passed">
+                            <name>checkLink[Компьютеры]</name>
+                            <title>Открываем страницу "Компьютеры"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1492594943976" stop="1492594948134" status="passed">
+                            <name>checkLink[Планшеты]</name>
+                            <title>Открываем страницу "Планшеты"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1492594948137" stop="1492594951853" status="passed">
+                            <name>checkLink[Перейти ко всем фильтрам]</name>
+                            <title>Открываем страницу "Перейти ко всем фильтрам"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1492594951855" stop="1492594965722" status="passed">
+                    <name>searching[20000, 25000, Acer, DELL]</name>
+                    <title>Поиск по фильтрам: цена от "20000" и до "25000", компании: "Acer", "DELL"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1492594962827" stop="1492594965722" status="passed">
+                            <name>checkLink[Показать подходящие]</name>
+                            <title>Открываем страницу "Показать подходящие"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1492594965724" stop="1492594973471" status="passed">
+                    <name>checkAndFind</name>
+                    <title>Поиск и проверка элементов списка</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1492594967221" stop="1492594973471" status="passed">
+                            <name>checkProducts[Acer Switch One 10 Z8300 64Gb]</name>
+                            <title>Проверка результата поиска по названию: "Acer Switch One 10 Z8300 64Gb"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Meehos-PC"/>
+                <label name="thread" value="2728@Meehos-PC.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492594974783" stop="1492595041026" status="passed">
+            <name>testFirstTask</name>
+            <title>Ищем ноутбуки</title>
+            <steps>
+                <step start="1492594979040" stop="1492595024923" status="passed">
+                    <name>openPage[Ноутбуки]</name>
+                    <title>открытие маркета и выбор категории</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1492594980984" stop="1492594981580" status="passed">
+                            <name>checkLink[Маркет]</name>
+                            <title>Открываем страницу "Маркет"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1492594981582" stop="1492595015968" status="passed">
+                            <name>checkLink[Компьютеры]</name>
+                            <title>Открываем страницу "Компьютеры"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1492595015970" stop="1492595019729" status="passed">
+                            <name>checkLink[Ноутбуки]</name>
+                            <title>Открываем страницу "Ноутбуки"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1492595019731" stop="1492595024922" status="passed">
+                            <name>checkLink[Перейти ко всем фильтрам]</name>
+                            <title>Открываем страницу "Перейти ко всем фильтрам"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1492595024924" stop="1492595033466" status="passed">
+                    <name>searching[, 30000, HP, Lenovo]</name>
+                    <title>Поиск по фильтрам: цена от "" и до "30000", компании: "HP", "Lenovo"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1492595029649" stop="1492595033466" status="passed">
+                            <name>checkLink[Показать подходящие]</name>
+                            <title>Открываем страницу "Показать подходящие"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1492595033467" stop="1492595040126" status="passed">
+                    <name>checkAndFind</name>
+                    <title>Поиск и проверка элементов списка</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1492595035275" stop="1492595040126" status="passed">
+                            <name>checkProducts[Lenovo IdeaPad 310 15 Intel]</name>
+                            <title>Проверка результата поиска по названию: "Lenovo IdeaPad 310 15 Intel"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="Meehos-PC"/>
+                <label name="thread" value="2728@Meehos-PC.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

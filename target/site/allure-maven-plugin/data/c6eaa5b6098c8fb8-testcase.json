@@ -1,0 +1,182 @@
+{
+  "uid" : "c6eaa5b6098c8fb8",
+  "name" : "testFirstTask",
+  "title" : "Ищем ноутбуки",
+  "time" : {
+    "start" : 1492594974783,
+    "stop" : 1492595041026,
+    "duration" : 66243
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 9
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "31d4225c2e2d8317",
+    "name" : "SeleniumTasksTest",
+    "title" : "Тестовое задание"
+  },
+  "steps" : [ {
+    "name" : "openPage[Ноутбуки]",
+    "title" : "открытие маркета и выбор категории",
+    "time" : {
+      "start" : 1492594979040,
+      "stop" : 1492595024923,
+      "duration" : 45883
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 4
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkLink[Маркет]",
+      "title" : "Открываем страницу \"Маркет\"",
+      "time" : {
+        "start" : 1492594980984,
+        "stop" : 1492594981580,
+        "duration" : 596
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkLink[Компьютеры]",
+      "title" : "Открываем страницу \"Компьютеры\"",
+      "time" : {
+        "start" : 1492594981582,
+        "stop" : 1492595015968,
+        "duration" : 34386
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkLink[Ноутбуки]",
+      "title" : "Открываем страницу \"Ноутбуки\"",
+      "time" : {
+        "start" : 1492595015970,
+        "stop" : 1492595019729,
+        "duration" : 3759
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkLink[Перейти ко всем фильтрам]",
+      "title" : "Открываем страницу \"Перейти ко всем фильтрам\"",
+      "time" : {
+        "start" : 1492595019731,
+        "stop" : 1492595024922,
+        "duration" : 5191
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "searching[, 30000, HP, Lenovo]",
+    "title" : "Поиск по фильтрам: цена от \"\" и до \"30000\", компании: \"HP\", \"Lenovo\"",
+    "time" : {
+      "start" : 1492595024924,
+      "stop" : 1492595033466,
+      "duration" : 8542
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkLink[Показать подходящие]",
+      "title" : "Открываем страницу \"Показать подходящие\"",
+      "time" : {
+        "start" : 1492595029649,
+        "stop" : 1492595033466,
+        "duration" : 3817
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "checkAndFind",
+    "title" : "Поиск и проверка элементов списка",
+    "time" : {
+      "start" : 1492595033467,
+      "stop" : 1492595040126,
+      "duration" : 6659
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkProducts[Lenovo IdeaPad 310 15 Intel]",
+      "title" : "Проверка результата поиска по названию: \"Lenovo IdeaPad 310 15 Intel\"",
+      "time" : {
+        "start" : 1492595035275,
+        "stop" : 1492595040126,
+        "duration" : 4851
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "SeleniumTasksTest"
+  }, {
+    "name" : "thread",
+    "value" : "2728@Meehos-PC.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Тестовое задание"
+  }, {
+    "name" : "host",
+    "value" : "Meehos-PC"
+  } ],
+  "parameters" : [ ]
+}

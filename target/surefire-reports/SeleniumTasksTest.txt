@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: SeleniumTasksTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 123.88 sec - in SeleniumTasksTest

@@ -1,0 +1,25 @@
+{
+  "testCases" : [ {
+    "uid" : "7678b4a973c8acc8",
+    "name" : "testSecondTask",
+    "title" : "Ищем планшеты",
+    "time" : {
+      "start" : 1492594917762,
+      "stop" : 1492594974778,
+      "duration" : 57016
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c6eaa5b6098c8fb8",
+    "name" : "testFirstTask",
+    "title" : "Ищем ноутбуки",
+    "time" : {
+      "start" : 1492594974783,
+      "stop" : 1492595041026,
+      "duration" : 66243
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

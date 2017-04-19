@@ -1,0 +1,48 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "e56f93595a36e886",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "7678b4a973c8acc8",
+        "name" : "testSecondTask",
+        "title" : "Ищем планшеты",
+        "time" : {
+          "start" : 1492594917762,
+          "stop" : 1492594974778,
+          "duration" : 57016
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c6eaa5b6098c8fb8",
+        "name" : "testFirstTask",
+        "title" : "Ищем ноутбуки",
+        "time" : {
+          "start" : 1492594974783,
+          "stop" : 1492595041026,
+          "duration" : 66243
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
