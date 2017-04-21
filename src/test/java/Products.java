@@ -5,7 +5,8 @@ import ru.yandex.qatools.allure.annotations.Step;
 
 import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.core.IsEqual.equalTo;
+
 
 class Products {
 
